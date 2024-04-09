@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>DC Deli - Main</title>
+  </head>
+  <body>
+
+    <!--
+      BOOTSTRAP NAV
+      https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">DC Deli</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Main</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="superfood_smoothies.html">Superfood Smoothies</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="boosters.html">Boosters</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="acai_bowls_n_more.html">Acai Bowls & More</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="menu-scanned.html">Entire Menu (scanned)</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+      PAGE CONTENTS
+    -->
+    <div class="container" style="margin-top:2em;">
+
+      <div>
+        <h1 style="margin-top: 30px; margin-left: 30px;">
+          DC Deli - Get your superfoods as smoothies & bowls!
+        </h1>
+        
+        <h2 style="font-style: italic; font-size: 25px; 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-top: 30px; margin-bottom: 30px; margin-left: 30px;">
+          WE ARE 100% <b>ORGANIC / NON-GMO / VEGAN / GLUTEN-FREE / PEANUT-FREE / SOY-FREE / DAIRY-FREE</b> 100% OF THE TIME
+        </h2>
+      </div>
+
+
+      
+      
+      <!--
+
+        RESPONSIVE GRID OF CARDS
+
+        SEE:
+
+            https://getbootstrap.com/docs/5.0/layout/grid/
+
+            https://getbootstrap.com/docs/5.0/components/card/
+
+            https://getbootstrap.com/docs/5.0/components/card/#grid-cards
+
+      -->
+
+      <div class="row row-cols-3">
+
+          <div class="card col" style="width: 25rem; margin:20px;">
+              <img src="images/superfood_smoothies.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"><a href="superfood_smoothies.html">Superfood Smoothies</a></h5>
+                  <p class="card-text">Different superfoods of your desired taste/ nutritional values blended into one drink.</p>
+              </div>
+          </div>
+
+          <div class="card col" style="width: 25rem; margin:20px;">
+              <img src="images/boosters.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"><a href="boosters.html">Boosters</a></h5>
+                  <p class="card-text">Tailor your smoothie/bowl by adding any of these ingredients and enhance its taste & nutritional value.</p>
+              </div>
+          </div>
+
+          <div class="card col" style="width: 25rem; margin:20px;">
+              <img src="images/acai-bowl.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title"><a href="acai_bowls_n_more.html">Acai Bowls & more</a></h5>
+                  <p class="card-text">Smoothie bowls made from acai berries and other superfoods.</p>
+              </div>
+          </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+      <footer style="margin-top:2em; margin-bottom:2em;">
+        <hr>
+        &copy; Copyright 2024 DC Deli |
+        <a href="index.html">Main</a>
+      </footer>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        console.log("Thanks for the page visit!")
+
+    </script>
+  </body>
+</html>
